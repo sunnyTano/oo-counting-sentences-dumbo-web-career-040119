@@ -15,7 +15,9 @@ class String
   end
 
   def count_sentences
-  arr = self.split("/.?!/")
+  arr = self.split(/.?!/)
+  count = arr.length
+  puts count
   end
   binding.pry
 end
