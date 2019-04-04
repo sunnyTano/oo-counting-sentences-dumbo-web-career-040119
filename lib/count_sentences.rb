@@ -15,9 +15,9 @@ class String
   end
 
   def count_sentences
-  arr = self.split(/\?|\.|!/).size
+  return self.split(/\?|\.|!/).size
   # count = arr.length
-  return arr
+
   end
   # binding.pry
 end
